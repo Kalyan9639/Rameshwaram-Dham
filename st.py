@@ -1,2 +1,0 @@
-print('ji')
-print('hello')
