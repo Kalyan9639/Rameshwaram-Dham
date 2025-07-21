@@ -321,6 +321,31 @@ footer {
     color: white;
 }
 
+/* --- Styling for the Story/Donation Section --- */
+.story-content ul {
+    list-style-type: ' seva ';
+    padding-left: 25px;
+}
+
+.story-content li {
+    padding-left: 15px;
+    margin-bottom: 15px;
+}
+
+.donation-details {
+    background-color: #fffaf0;
+    border: 1px dashed #ff9800;
+    padding: 1.5rem;
+    margin-top: 2rem;
+    border-radius: 8px;
+}
+
+.donation-details h3 {
+    margin-top: 0;
+    border-bottom: 1px solid #ffcc80;
+    padding-bottom: 0.5rem;
+}
+
 
 /* ==============================================
 --- Media Query for Tablets and Desktops --- 
