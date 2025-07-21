@@ -341,3 +341,31 @@ Styles here will apply ONLY to screens 768px and wider.
         flex-grow: 1;
     }
 }
+
+/* --- Responsive Image Styling --- */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block; /* Removes extra space below images */
+}
+
+/* --- Image Gallery Grid System --- */
+.gallery-grid {
+    display: grid;
+    /* Create 3 columns on desktops, 2 on tablets, 1 on phones */
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1rem;
+}
+
+.gallery-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures images fill the space without distortion */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.gallery-image:hover {
+    transform: scale(1.05); /* A nice hover effect */
+}
