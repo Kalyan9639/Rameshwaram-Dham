@@ -1,4 +1,4 @@
-# Shree Rameshwaram Dham - An AI-Powered Website Project
+9# Shree Rameshwaram Dham - An AI-Powered Website Project
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![Technology: AI-Powered](https://img.shields.io/badge/Technology-AI--Powered-blue)
@@ -73,4 +73,3 @@ This project is licensed under the MIT License - see the `LICENSE` file for deta
 ---
 
 Connect with me on [LinkedIn](https://www.linkedin.com/in/kalyan-sai-prasad/)!
-*(TODO: Add your LinkedIn profile link here)*
