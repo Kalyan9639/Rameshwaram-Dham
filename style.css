@@ -346,6 +346,44 @@ footer {
     padding-bottom: 0.5rem;
 }
 
+/* --- Leadership/Profile Card Styling --- */
+.leadership-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-bottom: 2.5rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px dashed #ffcc80; /* Adds a nice separator */
+}
+
+.profile-card {
+    text-align: center;
+    flex-basis: 200px; /* Sets a base width for each card */
+}
+
+.profile-card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;  /* Makes the image circular */
+    object-fit: cover;   /* Prevents image distortion */
+    border: 4px solid #ff9800;
+    margin-bottom: 1rem;
+    background-color: #f0f0f0; /* BG color while image loads */
+}
+
+.profile-card h4 {
+    margin: 0.5rem 0 0.2rem 0;
+    color: #4a2c2a;
+    font-size: 1.2rem;
+}
+
+.profile-card p {
+    margin: 0;
+    color: #795548;
+    font-style: italic;
+}
 
 /* ==============================================
 --- Media Query for Tablets and Desktops --- 
