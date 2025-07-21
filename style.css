@@ -1,21 +1,21 @@
 /* General Styling */
-body {
+/* body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #fff8e1; /* A light cream color */
-    color: #4a2c2a; /* A deep brown color */
-}
+    background-color: #fff8e1; 
+    color: #4a2c2a; 
+} */
 
-.left-aligned {
+/* .left-aligned {
     width: 50%;
     padding-right: 2em;
     box-sizing: border-box;
-}
+} */
 
 /* Header & Navigation */
-header {
-    background-color: #ff9800; /* A warm saffron/orange color */
+/* header {
+    background-color: #ff9800; 
     color: white;
     padding: 1rem 2rem;
     text-align: center;
@@ -30,7 +30,7 @@ header h1 {
 nav {
     display: flex;
     justify-content: center;
-    background-color: #795548; /* A dark brown */
+    background-color: #795548; 
 }
 
 nav a {
@@ -46,7 +46,7 @@ nav a:hover {
 }
 
 /* Main Content Area */
-main {
+/* main {
     padding: 2rem;
     max-width: 1000px;
     margin: auto;
@@ -59,9 +59,9 @@ section {
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.05);
 }
-
-h2 {
-    color: #d84315; /* A deep orange */
+ */
+/* h2 {
+    color: #d84315; 
     border-bottom: 2px solid #ffcc80;
     padding-bottom: 0.5rem;
 }
@@ -69,9 +69,10 @@ h2 {
 h3 {
     color: #795548;
 }
+*/
 
-/* Footer */
-footer {
+/* Footer */ 
+/* footer {
     text-align: center;
     padding: 1rem;
     background-color: #4a2c2a;
@@ -79,10 +80,10 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
-}
+} */
 
 /* Service & Contact List Styling */
-ul {
+/* ul {
     list-style-type: '🙏';
     padding-left: 20px;
 }
@@ -90,13 +91,13 @@ ul {
 li {
     margin-bottom: 10px;
     padding-left: 10px;
-}
+} */
 
 /* --- Styles for Testimonials Section --- */
-.section-subtitle {
+/* .section-subtitle {
     text-align: center;
     font-style: italic;
-    color: #6d4c41; /* A softer brown */
+    color: #6d4c41;
     margin-bottom: 2rem;
 }
 
@@ -108,13 +109,13 @@ li {
 }
 
 .testimonial-card {
-    background-color: #fffaf0; /* A very light cream for contrast */
-    border-left: 5px solid #ff9800; /* Saffron accent border */
+    background-color: #fffaf0; 
+    border-left: 5px solid #ff9800; 
     margin: 0;
     padding: 1.5rem;
     border-radius: 0 8px 8px 0;
     box-shadow: 0 4px 8px rgba(0,0,0,0.08);
-    flex-basis: 280px; /* Base width for each card */
+    flex-basis: 280px; 
     flex-grow: 1;
 }
 
@@ -132,10 +133,10 @@ li {
     color: #d84315;
     display: block;
     text-align: right;
-}
+} */
 
 /* this code below is given by ai mode */
-
+/* 
 .image-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -144,8 +145,8 @@ li {
 
 .image-grid img {
   width: 100%;
-  height: 200px; /* Set fixed height */
-  object-fit: cover; /* Crop the image */
+  height: 200px; 
+  object-fit: cover; 
   border-radius: 5px;
   cursor: pointer;
   transition: transform 0.2s ease-in-out;
@@ -154,15 +155,189 @@ li {
 .image-grid img:hover {
   transform: scale(1.02);
 }
-
+ */
 
 /* services image styling */
 
-.right-image img{
+/* .right-image img{
     float: right;
     width: 50%;
     height: 230px;
     object-fit: cover;
     cursor: pointer;
     transition: transform 0.2s ease-in-out;
+} */
+
+
+
+/* --- Mobile First - General Styling --- */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff8e1; /* A light cream color */
+    color: #4a2c2a; /* A deep brown color */
+    line-height: 1.6;
+}
+
+/* --- Header & Navigation --- */
+header {
+    background-color: #ff9800; /* A warm saffron/orange color */
+    color: white;
+    padding: 1rem; /* Adjusted padding for mobile */
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.8rem; /* Slightly smaller for mobile */
+}
+
+nav {
+    display: flex;
+    flex-direction: column; /* Stack nav links vertically on mobile */
+    background-color: #795548; /* A dark brown */
+}
+
+nav a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 1px solid #9a786a; /* Separator for stacked links */
+}
+
+nav a:last-child {
+    border-bottom: none; /* Remove border from last link */
+}
+
+nav a:hover {
+    background-color: #ff9800;
+}
+
+/* --- Main Content Area --- */
+main {
+    padding: 1rem; /* Reduced padding for mobile */
+    max-width: 1000px;
+    margin: auto;
+}
+
+section {
+    background-color: #ffffff;
+    padding: 1.5rem; /* Reduced padding for mobile */
+    margin-bottom: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+h2 {
+    color: #d84315; /* A deep orange */
+    border-bottom: 2px solid #ffcc80;
+    padding-bottom: 0.5rem;
+}
+
+h3 {
+    color: #795548;
+}
+
+/* --- Service & Contact List Styling --- */
+ul {
+    list-style-type: '🙏';
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+/* --- Testimonials Section Styling --- */
+.section-subtitle {
+    text-align: center;
+    font-style: italic;
+    color: #6d4c41;
+    margin-bottom: 2rem;
+}
+
+.testimonials-container {
+    display: flex;
+    flex-direction: column; /* Stack cards vertically on mobile */
+    gap: 1.5rem; /* Adjusted gap for mobile */
+}
+
+.testimonial-card {
+    background-color: #fffaf0;
+    border-left: 5px solid #ff9800;
+    margin: 0;
+    padding: 1.5rem;
+    border-radius: 0 8px 8px 0;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+}
+
+.testimonial-card p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-style: italic;
+}
+
+.testimonial-card cite {
+    font-style: normal;
+    font-weight: bold;
+    color: #d84315;
+    display: block;
+    text-align: right;
+}
+
+/* --- Footer --- */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #4a2c2a;
+    color: white;
+}
+
+
+/* ==============================================
+--- Media Query for Tablets and Desktops --- 
+==============================================
+Styles here will apply ONLY to screens 768px and wider.
+*/
+@media (min-width: 768px) {
+    header {
+        padding: 1rem 2rem; /* Restore larger padding */
+    }
+
+    header h1 {
+        font-size: 2rem; /* Restore larger font size */
+    }
+    
+    nav {
+        flex-direction: row; /* Make nav horizontal again */
+        justify-content: center;
+    }
+
+    nav a {
+        border-bottom: none; /* No borders needed for horizontal nav */
+    }
+
+    main {
+        padding: 2rem; /* Restore larger padding */
+    }
+
+    section {
+        padding: 2rem; /* Restore larger padding */
+    }
+
+    .testimonials-container {
+        flex-direction: row; /* Place cards side-by-side */
+        flex-wrap: wrap; /* Allow wrapping if needed */
+        gap: 2rem;
+    }
+
+    .testimonial-card {
+        flex-basis: 280px; /* Set a base width for cards */
+        flex-grow: 1;
+    }
 }
