@@ -354,7 +354,7 @@ img {
     display: grid;
     /* Create 3 columns on desktops, 2 on tablets, 1 on phones */
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 1rem;
+    gap: 1.5 rem;
 }
 
 .gallery-image {
