@@ -1,7 +1,7 @@
 # Shree Rameshwaram Dham - An AI-Powered Website Project
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Technology: AI-Powered](https://img.shields.io/badge/Technology-AI--Powered-blue)
+![Technology: Web-Development with AI](https://img.shields.io/badge/Technology-AI--Powered-blue)
 ![Status: Complete](https://img.shields.io/badge/Status-Complete-green)
 
 A fully functional, responsive website created for Shree Rameshwaram Dham, a spiritual sanctuary in Naimisharanya, UP, India. This project was developed entirely for free as an act of service (Seva) to help a deserving organization establish its digital presence.
