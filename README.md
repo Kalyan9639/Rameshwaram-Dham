@@ -1,4 +1,4 @@
-9# Shree Rameshwaram Dham - An AI-Powered Website Project
+# Shree Rameshwaram Dham - An AI-Powered Website Project
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![Technology: AI-Powered](https://img.shields.io/badge/Technology-AI--Powered-blue)
